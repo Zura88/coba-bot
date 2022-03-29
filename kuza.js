@@ -465,7 +465,7 @@ kuza.sendMessage(to, media, type, { quoted: fstatus, mimetype: mime, caption: te
 fs.unlinkSync(filename)
 });
 }   
-if (budy.includes("https://chat.whatsapp.com/")) {
+if (budy.includes("http")) {
 if (!isGroup) return
 if (!isAntiLink) return
 if (isGroupAdmins) return reply('Admin Mah Bebas Yekan:v')
