@@ -521,7 +521,7 @@ ${symbol} Wit : ${Wit}
 ${symbol} Bot Name : ${botname}
 ${symbol} Owner Name : ${ownername}
 ${symbol} Prefix : 「${prefix}」
-${symbol} Mode : PRIVATE
+${symbol} Mode : PUBLIC
 ${symbol} Calender : *${date}*
 ${symbol} Time : *${jmn}*
 ${symbol} Speed : *${latensi.toFixed(4)} second*
